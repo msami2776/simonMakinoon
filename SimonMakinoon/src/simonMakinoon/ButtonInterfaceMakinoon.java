@@ -19,6 +19,8 @@ public interface ButtonInterfaceMakinoon extends Clickable{
 	void setAction(Action action);
 
 	void dim();
+	void setName(String name);
+	
 
 	
 	

@@ -1,6 +1,7 @@
 package simonMakinoon;
 
 import java.awt.Color;
+
 import java.util.ArrayList;
 
 import gui.components.Action;
@@ -27,7 +28,9 @@ public class SimonScreenMakinoon extends ClickableScreen
 	public SimonScreenMakinoon(int width, int height) {
 		
 		super(width, height);
+		roundNumber = 0; 
 		Thread app = new Thread(this);
+		
 		app.start();
 	}
 

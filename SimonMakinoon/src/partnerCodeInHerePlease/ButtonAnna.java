@@ -69,4 +69,10 @@ public class ButtonAnna extends Component implements ButtonInterfaceMakinoon {
 
 	}
 
+	@Override
+	public void setName(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
