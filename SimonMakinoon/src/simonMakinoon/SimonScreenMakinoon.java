@@ -9,6 +9,9 @@ import gui.components.Button;
 import gui.components.TextLabel;
 import gui.components.Visible;
 import gui.screens.ClickableScreen;
+import partnerCodeInHerePlease.ButtonAnna;
+import partnerCodeInHerePlease.MoveAnna;
+import partnerCodeInHerePlease.ProgressAnna;
 	
 public class SimonScreenMakinoon extends ClickableScreen 
 				implements Runnable {
@@ -54,7 +57,7 @@ public class SimonScreenMakinoon extends ClickableScreen
 		/**
 		Placeholder until partner finishes implementation of ProgressInterface
 		*/
-		return null;
+		return new ProgressAnna();
 	}
 
 	private void addButtons() {
@@ -125,13 +128,13 @@ public class SimonScreenMakinoon extends ClickableScreen
 	}
 
 	private void setColor(Color black) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
 	private ButtonInterfaceMakinoon getAButton() {
 		// TODO Auto-generated method stub
-		return null;
+		return new ButtonAnna();
 	}
 
 	private MoveInterfaceMakinoon randomMove() {
@@ -149,7 +152,7 @@ public class SimonScreenMakinoon extends ClickableScreen
 
 	private MoveInterfaceMakinoon getMove(ButtonInterfaceMakinoon b) {
 		// TODO Auto-generated method stub
-		return null;
+		return new MoveAnna(b);
 	}
 
 	@Override

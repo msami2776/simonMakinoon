@@ -7,9 +7,9 @@ import simonMakinoon.ProgressInterfaceMakinoon;
 
 public class ProgressAnna extends Component implements ProgressInterfaceMakinoon {
 
-	public ProgressAnna(int x, int y, int w, int h) {
-		super(x, y, w, h);
-		// TODO Auto-generated constructor stub
+	public ProgressAnna() {
+		super(0,0,0,0);
+		//change up the above numbers as you can
 	}
 
 	@Override

@@ -10,7 +10,7 @@ public class MoveAnna implements MoveInterfaceMakinoon {
 
 	private ButtonInterfaceMakinoon y; 
 	
-	public void MoveAnna(ButtonInterfaceMakinoon y){
+	public MoveAnna(ButtonInterfaceMakinoon y){
 		this.y = y; 
 	}
 	@Override
